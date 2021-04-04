@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "homepage": "https://create-react-app-redux.now.sh",
+  "scripts": {
+    "deploy": "now && now alias",
+    "start": "react-scripts start",
+    "now-start": "serve -s ./build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "precommit": "pretty-quick --staged"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1",
+    "react-scripts": "^4.0.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@material-ui/core": "^4.11.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "connected-react-router": "4.5.0",
+    "material-ui": "^0.20.2",
+    "node-sass": "^5.0.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-redux": "5.1.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^5.2.0",
+    "redux": "4.0.5",
+    "redux-thunk": "2.3.0",
+    "sanitize.css": "11.0.1",
+    "serve": "^11.3.2"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

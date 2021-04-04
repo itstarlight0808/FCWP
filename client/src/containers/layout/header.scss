@@ -1,0 +1,15 @@
+
+.cs-nav-button{
+    display : none !important;
+}
+.menu-item-width{
+    min-width : 140px;
+}
+@media only screen and (max-width : 850px){
+    .cs-navbar{
+        display : none !important;
+    }
+    .cs-nav-button{
+        display : block !important;
+    }
+}
